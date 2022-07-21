@@ -12,6 +12,7 @@ int main(){
     getline(cin, s1);
     getline(cin, s2);
 
+    //Printing the entered string
     cout << s1 << endl << s2 << endl;
 
     //Compare String
