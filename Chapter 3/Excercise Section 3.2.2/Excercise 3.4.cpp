@@ -15,14 +15,21 @@ int main(){
     //Printing the entered string
     cout << s1 << endl << s2 << endl;
 
-    //Compare String
+    //Compare String for their largeness
     if (s1 == s2)
         cout << "They are equal" << endl;
     else if (s1 > s2)
-        cout << "First is larger" << endl;
+        cout << "First larger" << endl;
     else
-        cout << "Second is larger" << endl;
+        cout << "Second larger" << endl;
 
+    //Compare String for their length
+    if (s1.size() == s2.size())
+        cout << "They have equal length" << endl;
+    else if (s1.size() > s2.size())
+        cout << "First longer" << endl;
+    else
+        cout << "Second longer" << endl;
 
     return 0;
 }
