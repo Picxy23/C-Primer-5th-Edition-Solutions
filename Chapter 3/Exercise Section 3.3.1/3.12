@@ -1,0 +1,3 @@
+(a) vector<vector<int>> ivec;             Valid, empty int-type 2 dimentional vector
+(b) vector<string> svec = ivec;           Invalid, ivec is not same type as initializer
+(c) vector<string> svec(10, "null");      Valid, ten counts of "null"
