@@ -1,3 +1,4 @@
+// 3.16
 #include <iostream>
 #include <string>
 #include <vector>
@@ -64,3 +65,16 @@ int main(){
         cout << *idx << " ";
     cout << endl;
 }
+
+
+// 3.17: N/A
+
+
+// 3.18: N/A
+
+
+// 3.19: N/A
+
+
+// 3.20
+
