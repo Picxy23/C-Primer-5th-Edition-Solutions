@@ -23,7 +23,7 @@ int main(){
     cout << fval <<  " is type: " << typeid(fval).name() << endl;
 
     // c
-    // ``unsigned int`` converted to ``float`` (float is larger)
+    // ``unsigned int`` converted to ``float`` (to preserve precision)
     // result is assigned to ``double``
     dval = ui * fval;
     cout << dval <<  " is type: " << typeid(dval).name() << endl;
